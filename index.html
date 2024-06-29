@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Availability</title>
+  </head>
+  <body>
+    <!-- Google Calendar Appointment Scheduling begin -->
+    <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet" />
+    <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+    <script>
+      (function () {
+        var target = document.currentScript;
+        window.addEventListener("load", function () {
+          calendar.schedulingButton.load({
+            url: "https://calendar.google.com/calendar/appointments/schedules/AcZssZ06s3aL0j_EISG9riMfUM6qObTnmBYLYcrQ424nHv3opemIdP3qAB9_I4ryWIJySzWP0Wf_d5qh?gv=true",
+            color: "#616161",
+            label: "Let's do this! 🤘🏼",
+            target,
+          });
+        });
+      })();
+    </script>
+    <!-- end Google Calendar Appointment Scheduling -->
+  </body>
+</html>
